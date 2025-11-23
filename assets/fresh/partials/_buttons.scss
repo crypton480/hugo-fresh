@@ -86,10 +86,10 @@ Classes to change the feel of bulma buttons
         outline: none;
         border-color: $accent;
         background-color: $accent;
-        color: $dark-grey;
+        color: $blue-grey;
         transition: all 0.5s;
         &:hover {
-            color: $dark-grey;
+            color: $blue-grey;
         }
         &.raised:hover {
             box-shadow: 0 14px 26px -12px rgba(104, 187, 136, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(104, 187, 136, 0.2) !important;
@@ -100,7 +100,7 @@ Classes to change the feel of bulma buttons
             color: $accent;
             background-color: transparent;
             &:hover {
-                color: $dark-grey;
+                color: $blue-grey;
                 background-color: $accent;
             }
         }
