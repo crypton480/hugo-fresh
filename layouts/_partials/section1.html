@@ -25,7 +25,13 @@
                 <p>{{ .text }}</p>
             </div>
             <div class="card-action">
+              {{$is_disabled := .disabled}}
+              {{- if $is_disabled}}
+                <p><i>{{ .buttonText }} </i></p>
+              {{- else }}
               <a href="{{ .url }}" class="button btn-align-md accent-btn rounded raised">{{ .buttonText }}</a>
+              {{- end}}
+               
             </div>
           </div>
         </div>
