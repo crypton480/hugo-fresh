@@ -17,14 +17,14 @@ Navbar
     //Responsive menu icon
     .navbar-burger {
         width: 4rem;
-        height: 4rem;
+        height: 6rem;
     }
     //Brand
     .navbar-brand {
         min-height: 4rem;
         img {
-            max-height: 100px !important;
-            height: 100px;
+            max-height: 80px !important;
+            height: 80px;
         }
         //Removing navbar item default hover behaviour
         &:hover {
