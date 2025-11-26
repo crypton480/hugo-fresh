@@ -38,10 +38,10 @@ Navbar
     }
     //Navbar items
     .navbar-item {
-        color: $muted-grey;
+        color: $medium-grey;
         &.is-secondary {
             &:hover {
-                color: $secondary !important;
+                color: $accent !important;
             }
         }
         &.has-dropdown {
