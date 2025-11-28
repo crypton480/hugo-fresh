@@ -27,10 +27,11 @@
             </div>
             <div class="card-action">
               {{$is_disabled := .disabled}}
+              {{$is_external := .external}}
               {{- if $is_disabled}}
                 <p><i>{{ .buttonText }} </i></p>
               {{- else }}
-              <a href="{{ .url }}" class="button btn-align-md accent-btn rounded raised">{{ .buttonText }}</a>
+              <a href="{{ .url }}" class="button btn-align-md accent-btn rounded raised" {{- if $is_external}} target="_blank" {{- end}}>{{ .buttonText }}</a>
               {{- end}}
                
             </div>
