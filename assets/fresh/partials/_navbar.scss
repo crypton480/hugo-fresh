@@ -60,16 +60,16 @@ Navbar
                 top: 3.4rem;
                 min-width: 220px;
                 margin-top: 4px;
-                border-top-color: $secondary;
+                border-top-color: $accent;
                 .navbar-item {
                     padding: 10px 20px;
                 }
             }
             &:hover {
                 .navbar-link {
-                    color: $secondary;
+                    color: $accent;
                     &:after {
-                        border-color: $secondary;
+                        border-color: $accent;
                     }
                 }
             }
